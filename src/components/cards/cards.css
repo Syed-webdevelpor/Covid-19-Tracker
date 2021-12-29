@@ -1,0 +1,24 @@
+.container1{
+    background-color: rgb(234, 241, 248);
+    margin: 40px 0;
+}
+
+.infect{
+    margin: 20px !important;
+   border-bottom :10px solid blue;
+}
+.recover{
+    margin: 20px !important;
+    border-bottom:10px solid green;
+}
+.deaths{
+    margin: 20px !important;
+    border-bottom:10px solid red;
+}
+@media (max-width : 770px) {
+    .infect, .recover, .deaths{
+        width: 100%;
+    }
+    
+    
+}
